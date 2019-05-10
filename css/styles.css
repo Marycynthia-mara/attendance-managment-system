@@ -1,0 +1,97 @@
+*{
+	box-sizing:  border-box;
+}
+.glyphicon.glyphicon-home{
+	width: 30%;
+	margin: auto;
+	display:  none;
+}
+
+.signIn_cont{
+	margin:  auto;
+	min-height: 500px;
+	padding: 30px 20px;
+	background-color: #fff;	
+}
+.sighIn_body{
+	padding: 60px 20px 60px 20px;
+}
+.panel-heading.sighIn_header, .panel-heading{
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+
+.sighIn_body  .form-group input {
+	height: 40px;
+	border-radius: 0px;
+	margin-bottom: 30px;
+	padding: 8px 10px;
+}
+ .signup_body .form-group input, .row input, .row select{
+ 	height: 40px;
+	border-radius: 0px;
+	margin-bottom: 30px;
+	padding: 8px 10px;
+ 	margin-bottom: 15px;
+ }
+
+.btn.btn-primary.btn-lg.btn-block, .btn.btn-success.pull-right, .btn.btn-success.navbar-btn.navbar-right{
+	border-radius: 0px;
+	padding: 8px 10px;
+	background-image: none;
+	background-color: #3FB525;
+}
+
+.panel-body.signup_body{
+	padding: 60px 20px;
+}
+
+.form-group.alert.alert-success{
+	margin-top: 30px;
+}
+
+.form-group.alert.alert-danger{
+	margin-bottom: 20px;
+}
+
+.students-name{
+	display: block;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+
+
+.attendance_radio_cont{
+	width: 100%;
+	height: 40px;
+}
+
+.attendance_radio_cont label{
+	width: 100px;
+	vertical-align: bottom;
+	display: inline-block;
+	font-size: 20px;
+	margin: 0;
+}
+.attendance_radio_cont input{
+	vertical-align: bottom;
+	margin: 0;
+	width: 18px;
+	height: 18px;
+}
+
+
+
+
+@media only screen and (max-width:320px){
+	.btn.btn-default.event_btn{
+		display: block;
+		width: 100%;
+	}
+}
+
